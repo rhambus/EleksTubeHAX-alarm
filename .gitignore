@@ -30,7 +30,10 @@
 # Exclude personal settings for the project (wifi credentials, etc.).
 include/_USER_DEFINES.h
 
+
 # Ignore "act" files (GitHub Actions locally).
 .act_artifacts
 .actrc
 .act
+firmware/eleksmaker_clock_backup.bin
+firmware/_ESP32 save flash 4MB.cmd
